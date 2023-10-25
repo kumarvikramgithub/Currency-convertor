@@ -11,7 +11,7 @@ const InputComponent = ({
   className
 }) => {
   return (
-    <div className={`bg-slate-200 rounded-sm flex w-full ${className}`}>
+    <div className={`bg-slate-200 rounded-md flex w-full ${className}`}>
       <div className="flex-grow ps-4 pt-1">
         <h1 className="text-slate-500 tracking-wider">{label}</h1>
         <input

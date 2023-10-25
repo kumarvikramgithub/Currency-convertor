@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bgImg{
+  background-image: url('https://plus.unsplash.com/premium_photo-1681487767138-ddf2d67b35c1?auto=format&fit=crop&q=80&w=1910&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+}

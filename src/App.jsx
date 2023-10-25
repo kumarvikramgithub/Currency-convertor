@@ -34,8 +34,8 @@ function App() {
     }
   }, [amount, toCurrency, currencyInfo]);
   return (
-    <div className="w-screen h-screen bg-black flex flex-col justify-center items-center">
-      <h1 className="text-4xl text-slate-700 my-8">Currency Convertor</h1>
+    <div className="w-screen h-screen bg-black flex flex-col justify-center items-center bgImg">
+      <h1 className="text-4xl text-slate-100 my-12 font-semibold">Currency Convertor</h1>
       <div className="w-1/3 bg-slate-500 shadow-2xl rounded p-8 flex flex-col justify-center items-center">
         <InputComponent
           label="From"
